@@ -1,0 +1,45 @@
+.container {
+  border: 1px solid red;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+
+
+
+.menu {
+ background-color: red;
+
+ width: 500px;
+ height: 100px;
+
+}
+
+.nav {
+  background-color: black;
+  float: left;
+  width: 100px;
+  height: 300px;
+}
+
+.content {
+  background-color: blue;
+
+  width: 400px;
+  height: 300px;
+
+  float: left;
+  
+
+
+}
+
+.footer {
+background-color: yellowgreen;
+  width: 500px;
+  height: 100px;
+  clear: both;
+
+}
+

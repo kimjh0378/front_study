@@ -1,0 +1,27 @@
+body {
+  background-image: url("../../images/teemo.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  /* top bottom center        lef right center*/
+  background-position: center center;
+  height: 3000px;
+  background-attachment: fixed;
+
+  background: skyblue
+                url("../../images/teemo.jpg")
+                no-repeat center center fixed;
+
+    background: linear-gradient(to right bottom, red, blue);
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+}
+h1 {
+  background-color: red;
+}
+p {
+  background-color: rgb(255, 100, 25);
+}
+.bg {
+  background-color: rgba(100, 255, 50, 0.5);
+
+}

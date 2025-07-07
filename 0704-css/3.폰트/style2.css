@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+*{
+   font-family: "Manufacturing Consent", system-ui;
+}
+
+
+@font-face {
+    font-family: 'TheTuesdayofYounah';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/TheTuesdayofYounah.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

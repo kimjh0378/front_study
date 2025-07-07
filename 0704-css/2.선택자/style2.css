@@ -1,0 +1,15 @@
+/* 하위 선택자               스페이스바 쓰면 하위 모든게 잡힘 /  > 넣으면 바로 아래 자식만 잡힘*/
+#first p {
+  color: red;
+
+}
+
+#second > p {
+background-color: aqua;
+
+}
+
+p.inner {
+  color:blue;
+
+}

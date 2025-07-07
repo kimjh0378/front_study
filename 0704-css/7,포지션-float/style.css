@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.float {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.box {
+width: 100px;
+height: 100px;
+}
+
+.box1 {
+background-color: blue;
+
+}
+
+.box2 {
+background-color: red;
+
+}
+
+.box3 {
+background-color: black;
+float: right;
+
+}
+
+.box4 {
+background-color: purple;
+margin: auto;
+
+}
+
+.container {
+  height: 200px;
+border: 1px solid red;
+overflow: scroll;
+}

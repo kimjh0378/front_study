@@ -1,0 +1,25 @@
+/* 전체 선택자*/
+*{
+
+  color: red;
+
+}
+/* 태그 선택자 */
+h1 {
+
+  background-color: cyan;
+
+}
+/* 아이디 선택자*/
+#title {
+
+  text-align: center;
+}
+/* 클래스 선택자*/
+/* .가 클래스를 의미 */
+/* 여러 선택자를 동시에 적용하려면 ,로 구분해서 작업*/
+.color, h3 {
+
+  font-size: 50px;
+  color: cadetblue;
+}
