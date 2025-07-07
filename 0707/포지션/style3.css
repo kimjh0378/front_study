@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 3000px;
+}
+
+
+header {
+  background-color: gray;
+  padding: 10px;
+  overflow: auto;
+  /*화면 따라오게하기*/
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  /*점 없애기*/
+  list-style: none;
+}
+
+nav > ul > li {
+  /*메뉴들을 인라인으로 바꾸기*/
+  display: inline;
+  /*메뉴끼리 띄우기*/
+  margin-right: 20px;
+}
+
+header a {
+  /*밑줄 없애기*/
+  text-decoration: none;
+  color: black
+  
+  
+}
+
+.logo {
+  /*로고를 왼쪽으로*/
+  float: left;
+}
+
+.nav {
+  /*메뉴를 오른쪽으로*/
+  float: right;
+}
+
+content {
+  clear: both;
+  padding: 20px;
+}
+content > h1, content > p {
+  padding: 20px;
+}
+
+.btn-top {
+  border: 1px solid lightgray;
+  width: 50px;
+  height: 50px;
+  /*동그라미 만들기*/
+  border-radius: 50%;
+  /*중간으로 모이게 하기*/
+  text-align:center;
+
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+
+.btn-top i {
+  width: 50px;
+  height: 50px;
+  list-style: 50px;
+  color: gray;
+}
+
+/*hover 가상선택자*/
+.btn-top:hover {
+  background: rgb(253, 206, 206)
+}

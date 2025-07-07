@@ -1,4 +1,47 @@
-body {
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
+body {
+  width: 100%;
+  height: 100%;
   background-color: yellow;
+}
+.profile {
+  width: 100%;
+  padding-top: 400px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.image {
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.icons > div {
+  width: 25%;
+  float: left;
+}
+
+.icons > div > img {
+  width: 30%;
+}
+
+.icons {
+  margin-top: 20px;
+  text-align: center;
+
 }

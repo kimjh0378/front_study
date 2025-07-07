@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  height: 0;
+}
+
+
+ul {
+  font-size: 0;
+}
+
+
+
+li {
+  font-size: 16px;
+  width: 100px;
+  height: 200px;
+  border: 1px solid red;
+  display: inline-block;
+}
+
+.visi {
+  /* 숨김처리는 해주지만 해당 영역은 남아있음 */
+  /* visibility: hidden; */
+  display: none;
+}
