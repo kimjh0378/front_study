@@ -1,0 +1,16 @@
+.box {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  margin: auto;
+
+}
+
+.container {
+  text-align: center;
+}
+
+#chk:disabled + label {
+  color: lightgray;;
+}
