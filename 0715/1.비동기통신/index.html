@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+    userId :<input type="text" name="userId"><br>
+    title : <input type="text" name="title"><br>
+    body : <textarea name="body"></textarea>
+    <input class="post" type="submit" value="게시글작성">
+
+  </form>
+
+  
+  <button class="get">GET요청</button>
+  <button class="async">async테스트</button>
+  
+
+  <div class="container">
+    <h1 class="title"></h1>
+    <p class="id"></p>
+    <p class="userid"></p>
+    <pre class="body"></pre>
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -14,3 +14,17 @@
 #chk:disabled + label {
   color: lightgray;;
 }
+
+body {
+  height: 3000px;
+}
+
+.status-bar {
+  width: 0;
+  height: 5px;
+  background: red;
+
+  position: fixed;
+  top: 0;
+
+}
